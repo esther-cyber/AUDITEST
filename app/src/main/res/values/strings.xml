@@ -16,8 +16,8 @@
     <string name="no_apto">Usted no es apto</string>
     <string name="scroll">En esta prueba se va a reproducir un sonido de elevada frecuencia. Cuando deje de escuchar el
         sonido, pulse el boton de "ACABAR PRUEBA" y recibirá un informe sobre su estado auditivo. Dicho informe establecerá si usted ha pasado el test o , si por el contrario,
-        ha de acudir a un especialista para evaluar qué medidas se han de tomar ante su problema</string>
-    <string name="scroll2">En esta prueba se va a reproducir un sonido de baja frecuencia. Cuando deje de escuchar el
+        ha de acudir a un especialista para evaluar qué medidas se han de tomar ante su problema. Gracias por confiar en nosotros, ponemos nuestros mejores servicios a su disposición.</string>
+    <string name="scroll2">En esta prueba se va a reproducir un sonido de baja frecuencia. Cuando comience a escuchar el
         sonido, pulse el boton de "ACABAR PRUEBA" y recibirá un informe sobre su estado auditivo. Dicho informe establecerá si usted ha pasado el test o , si por el contrario,
-        ha de acudir a un especialista para evaluar qué medidas se han de tomar ante su problema</string>
+        ha de acudir a un especialista para evaluar qué medidas se han de tomar ante su problema. Gracias por confiar en nosotros, ponemos nuestros mejores servicios a su disposición.</string>
 </resources>
