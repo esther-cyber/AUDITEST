@@ -18,12 +18,12 @@ public class Pantalla_Altas extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pantalla_altas); /** No se como se llamara tu layout, he puesto main_activity, pero puede ser otra */
+        setContentView(R.layout.activity_pantalla_altas);
         Button buttonstart = (Button) findViewById(R.id.buttonstart);
         Button buttonstop = (Button) findViewById(R.id.buttonstop);
-        /*AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);*/
-        mMediaPlayer = MediaPlayer.create(Pantalla_Altas.this, R.raw.sonido_pitido); /** El nombre lo he puesto aleatorio, tienes que poner el nombre del tuyo, MyActivity.this,R.raw.aleatorio */
-        /** tienes que meter tu sonido en "app/src/main/res/raw/" */
+
+        mMediaPlayer = MediaPlayer.create(Pantalla_Altas.this, R.raw.bajas);
+
         buttonstart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,14 +48,9 @@ public class Pantalla_Altas extends AppCompatActivity {
     public void displaySeconds () {
         /*long startTime = System.currentTimeMillis();*/
         long timeElapsed = System.currentTimeMillis() - startTime;
-        /*final String Seconds = String.valueOf(timeElapsed / 1000);*/
-            /*mMediaPlayer.release();
-            mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-                @Override
-                public void onCompletion(MediaPlayer mediaPlayer) {*/
-        TextView secondsText = (TextView) findViewById(R.id.textView);
+
         /*secondsText.setText(String.valueOf(Seconds));*/
-        if (timeElapsed > 5) {
+        if (timeElapsed > 13000) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.setTitle("Resultado");
                 builder.setMessage("Apto");

@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/javir/AndroidStudioProjects/AUDITEST/app/src/main/res/drawable/gradient.xml" value="0.3828125" />
+        <entry key="..\:/Users/javir/AndroidStudioProjects/AUDITEST/app/src/main/res/layout/activity_pantalla_bajas.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/javir/AndroidStudioProjects/AUDITEST/app/src/main/res/layout/activity_pantalla_frecuencias.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/javir/AndroidStudioProjects/trabajoweno/app/src/main/res/drawable/rect_ngulo_redondeado_2.xml" value="0.3828125" />
         <entry key="..\:/Users/javir/AndroidStudioProjects/trabajoweno/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/javir/AndroidStudioProjects/trabajoweno/app/src/main/res/layout/activity_main.xml" value="0.2875905797101449" />
