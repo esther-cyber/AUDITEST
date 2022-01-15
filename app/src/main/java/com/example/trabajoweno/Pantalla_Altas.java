@@ -24,6 +24,8 @@ public class Pantalla_Altas extends AppCompatActivity {
 
         mMediaPlayer = MediaPlayer.create(Pantalla_Altas.this, R.raw.bajas);
 
+        /* se espera a la pulsacion del boton start para reproducir el audio*/
+
         buttonstart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,6 +35,8 @@ public class Pantalla_Altas extends AppCompatActivity {
                 }
             }
         });
+
+        /* se espera a la pulsacion del boton stop para parar el audio y mostrar el resultado a través de la función displaySeconds*/
 
         buttonstop.setOnClickListener(new View.OnClickListener() {
 
@@ -46,10 +50,13 @@ public class Pantalla_Altas extends AppCompatActivity {
     }
 
     public void displaySeconds () {
-        /*long startTime = System.currentTimeMillis();*/
-        long timeElapsed = System.currentTimeMillis() - startTime;
 
-        /*secondsText.setText(String.valueOf(Seconds));*/
+        long timeElapsed = System.currentTimeMillis() - startTime; /* tiempo que has tardado en escuchar el sonido*/
+
+
+        /* según el tiempo que se tarde en escuchar salta una alerta u otra */
+
+
         if (timeElapsed > 13000) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.setTitle("Resultado");

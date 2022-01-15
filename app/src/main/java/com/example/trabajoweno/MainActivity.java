@@ -25,13 +25,18 @@ public class MainActivity extends AppCompatActivity {
         // AGREGAR ANIMACIONES
         Animation animacion1 = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_arriba);
         Animation animacion2 = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_abajo);
-        TextView deTextView = findViewById(R.id.JODIDO_IMAGE);
+        TextView deTextView = findViewById(R.id.text1);
         TextView sorderaTextView = findViewById(R.id.SORDERA_IMAGE);
         ImageView logoImageView = findViewById(R.id.LOGO_IMAGE);
 
+
+        /* se realizan las animaciones de texto e imagen */
         deTextView.setAnimation(animacion2);
         sorderaTextView.setAnimation(animacion2);
         logoImageView.setAnimation(animacion1);
+
+
+        /* tras un delay de 4 segundos, se cambia de pantalla mediante una transición*/
 
         new Handler().postDelayed(new Runnable() {
             @Override

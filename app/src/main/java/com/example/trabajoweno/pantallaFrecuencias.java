@@ -23,12 +23,16 @@ public class pantallaFrecuencias extends AppCompatActivity {
 
                 Intent altas = new Intent(pantallaFrecuencias.this, Pantalla_Altas.class);
                 startActivity(altas);
-                overridePendingTransition(R.anim.fade_in,R.anim.fade_out);
+                overridePendingTransition(R.anim.fade_in,R.anim.fade_out); /* se aplican transiciones de pantalla */
 
             }
         });
 
         Button bajas = (Button) findViewById(R.id.boton3);
+
+        /* se espera a la pulsación del boton bajas para cambiar de pantalla mediante un intent*/
+
+
 
         bajas.setOnClickListener(new View.OnClickListener() {
             @Override
