@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">trabajoweno</string>
+    <string name="app_name">AUDITEST</string>
     <string name="intro1">Registro</string>
     <string name="nombre">Nombre</string>
     <string name="apellidos">Apellidos</string>

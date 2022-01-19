@@ -12,7 +12,7 @@
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="52dp"
         android:fontFamily="sans-serif-light"
         android:text="¿Tienes problemas de audición?"
         android:textAlignment="center"
@@ -20,13 +20,14 @@
         android:textSize="23sp"
         app:layout_constraintBottom_toTopOf="@+id/SORDERA_IMAGE"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/SORDERA_IMAGE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="236dp"
+        android:layout_marginBottom="192dp"
         android:fontFamily="sans-serif-condensed-light"
         android:text="Nuestro equipo de profesionales está a tu disposición"
         android:textAlignment="center"
@@ -35,16 +36,16 @@
         android:textSize="21.7sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/LOGO_IMAGE"
         android:layout_width="336dp"
         android:layout_height="133dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="144dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
